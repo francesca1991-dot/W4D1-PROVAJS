@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/stile/style.css"/>
+</head>
+<body>
+    
+    <h1>Ricerca Lavoro</h1>
+    <div class="campoinput">
+    <div class="inserisci">
+        <label for="tipoLavoro">Tipo di Lavoro:</label>
+        <input type="text" id="tipoLavoro" name="tipoLavoro">
+    </div>
+    <div class="inserisci">
+        <label for="luogo">Luogo:</label>
+        <input type="text" id="luogo" name="luogo">
+    </div>
+</div>
+    <button onclick="eseguiRicerca()">Cerca</button>
+    <h2>Risultati della ricerca:</h2>
+    <p id="numeroRisultati"></p>
+    <ul id="listaRisultati"></ul>
+   
+
+
+
+    <script src="script.js"></script> 
+</body>
+</html>

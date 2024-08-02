@@ -1,0 +1,59 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-image: url(https://media.istockphoto.com/id/1349094945/photo/human-using-a-computer-laptop-for-searching-for-job-and-fill-out-personal-data-on-job-website.jpg?s=612x612&w=0&k=20&c=nVCY302pin29eP1rN0eBGstQN3WF4YQTWvZ4TvAs21g=);
+  background-size: contain;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+}
+h1{
+    text-align: center;
+    font-size: 100px;
+}
+.campoinput{ background-color: rgba(199, 188, 186, 0.788);
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 25px;
+   }
+   h2{
+   font-size: 40px ;
+   background-color: rgba(230, 81, 18, 0.377);
+   color:white;
+   }
+   
+   button {
+    font-size: 20px; 
+    padding: 10px 20px; 
+    border:none;
+    border-radius: 5px; 
+    background-color: rgba(158, 73, 36, 0.377);
+    color: white; 
+    cursor: pointer; 
+    font-weight: bold; 
+   }
+   button:hover{
+    background-color: rgba(224, 204, 94, 0.473);
+   }
+
+  #numeroRisultati{
+    font-weight: bold;
+    font-size: 30px ;
+    background-color: rgba(255, 255, 255, 0.445);
+  } 
+
+  #listaRisultati{
+    font-size: 20px;
+    font-weight: 400;
+    background-color:rgba(143, 235, 198, 0.308);
+  }
+#listaRisultati{
+    overflow-y: scroll;
+}
